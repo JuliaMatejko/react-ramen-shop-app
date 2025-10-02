@@ -136,13 +136,13 @@
 }
 
 .neko-noodles-icon {
-  background-image: url("/src/assets/neko-noodles-icon.png");
+  background-image: url("/assets/neko-noodles-icon.png");
   width: 100px;
   height: 100px;
 }
 
 .neko-noodles-logo-text {
-  background-image: url("/src/assets/neko-noodles-logo-text.png");
+  background-image: url("/assets/neko-noodles-logo-text.png");
   height: 100px;
   width: 425px;
 }

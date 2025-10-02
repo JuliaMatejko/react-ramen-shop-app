@@ -7,7 +7,7 @@ const Header = (props) => {
   return (
     <Fragment>
       <header className={classes.header}>
-        <img src="/src/assets/neko-noodles-logo-text.png" alt="Neko Noodles Logo" />
+        <img src="/assets/neko-noodles-logo-text.png" alt="Neko Noodles Logo" />
         <ul>
           <li>
             <a href="#about">About Us</a>

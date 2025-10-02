@@ -3,196 +3,196 @@
     "name": "Blue Bobba",
     "description": "Refreshing blue tea with tapioca pearls.",
     "price": 5.99,
-    "image": "/src/assets/menu/blue bobba.png",
+    "image": "/assets/menu/blue-bobba.png",
     "category": "Drinks"
   },
   "m2": {
     "name": "Butterfly Tea Lemonade Matcha",
     "description": "Layered matcha, lemonade, and butterfly pea tea.",
     "price": 6.49,
-    "image": "/src/assets/menu/butterfly-tea-lemonade-matcha.jpg",
+    "image": "/assets/menu/butterfly-tea-lemonade-matcha.jpg",
     "category": "Drinks"
   },
   "m3": {
     "name": "Calamares",
     "description": "Crispy deep-fried squid rings.",
     "price": 9.99,
-    "image": "/src/assets/menu/Calamares.jpg",
+    "image": "/assets/menu/calamares.jpg",
     "category": "Starters"
   },
   "m4": {
     "name": "California Sushi Roll",
     "description": "Crab, avocado, and cucumber sushi roll.",
     "price": 11.99,
-    "image": "/src/assets/menu/california-sushi-roll.jpg",
+    "image": "/assets/menu/california-sushi-roll.jpg",
     "category": "Sushi"
   },
   "m5": {
     "name": "Gift Card – Chef’s Menu",
     "description": "Degustation menu gift card.",
     "price": 50.0,
-    "image": "/src/assets/menu/cheffs menu degustation giftcard.jpg",
+    "image": "/assets/menu/cheffs-menu-degustation-giftcard.jpg",
     "category": "Special"
   },
   "m6": {
     "name": "Chicken Gyoza",
     "description": "Pan-fried dumplings with chicken filling.",
     "price": 7.99,
-    "image": "/src/assets/menu/chicken-gyoza.jpg",
+    "image": "/assets/menu/chicken-gyoza.jpg",
     "category": "Starters"
   },
   "m7": {
     "name": "Chicken Katsu Bowl",
     "description": "Crispy chicken with rice and sauce.",
     "price": 10.99,
-    "image": "/src/assets/menu/chicken-katsu-bowl-2.jpg",
+    "image": "/assets/menu/chicken-katsu-bowl-2.jpg",
     "category": "Meals"
   },
   "m8": {
     "name": "Classic Mochi",
     "description": "Soft rice cakes with sweet filling.",
     "price": 6.49,
-    "image": "/src/assets/menu/classic-mochi.jpg",
+    "image": "/assets/menu/classic-mochi.jpg",
     "category": "Mochi"
   },
   "m9": {
     "name": "Dragon Roll",
     "description": "Eel, cucumber, avocado, topped with thin avocado slices.",
     "price": 13.99,
-    "image": "/src/assets/menu/Dragon-Roll.jpg",
+    "image": "/assets/menu/dragon-roll.jpg",
     "category": "Sushi"
   },
   "m10": {
     "name": "Iced Matcha Latte",
     "description": "Chilled matcha with milk and ice.",
     "price": 4.99,
-    "image": "/src/assets/menu/Iced-Matcha-latte.jpg",
+    "image": "/assets/menu/iced-matcha-latte.jpg",
     "category": "Drinks"
   },
   "m11": {
     "name": "Mango Roll",
     "description": "Sushi roll with mango and shrimp.",
     "price": 12.49,
-    "image": "/src/assets/menu/mango roll.jpg",
+    "image": "/assets/menu/mango-roll.jpg",
     "category": "Sushi"
   },
   "m12": {
     "name": "Matcha Lemonade",
     "description": "Cool matcha green tea with lemonade.",
     "price": 5.49,
-    "image": "/src/assets/menu/matcha lemonade.jpg",
+    "image": "/assets/menu/matcha-lemonade.jpg",
     "category": "Drinks"
   },
   "m13": {
     "name": "Matcha Mochi",
     "description": "Mochi filled with matcha cream.",
     "price": 6.99,
-    "image": "/src/assets/menu/matcha-mochi.jpg",
+    "image": "/assets/menu/matcha-mochi.jpg",
     "category": "Mochi"
   },
   "m14": {
     "name": "Gift Card",
     "description": "Use this for any item on our menu.",
     "price": 30.0,
-    "image": "/src/assets/menu/giftcard.webp",
+    "image": "/assets/menu/giftcard.webp",
     "category": "Special"
   },
   "m15": {
     "name": "Mochi Set",
     "description": "Selection of 3 mochi flavors.",
     "price": 8.99,
-    "image": "/src/assets/menu/mochi set.jpg",
+    "image": "/assets/menu/mochi-set.jpg",
     "category": "Mochi"
   },
   "m16": {
     "name": "Strawberry Pink Mochi",
     "description": "Strawberry-flavored rice cake dessert.",
     "price": 5.99,
-    "image": "/src/assets/menu/strawberry-pink-mochi.jpg",
+    "image": "/assets/menu/strawberry-pink-mochi.jpg",
     "category": "Mochi"
   },
   "m17": {
     "name": "Okonomiyaki",
     "description": "Japanese savory pancake with toppings.",
     "price": 9.49,
-    "image": "/src/assets/menu/Okonomiyaki.jpeg",
+    "image": "/assets/menu/okonomiyaki.jpeg",
     "category": "Meals"
   },
   "m18": {
     "name": "Omurice",
     "description": "Fluffy omelette on fried rice with ketchup.",
     "price": 10.49,
-    "image": "/src/assets/menu/Omurice-Japanese-Omelette-Rice.jpg",
+    "image": "/assets/menu/omurice-japanese-omelette-rice.jpg",
     "category": "Meals"
   },
   "m19": {
     "name": "Pad Thai",
     "description": "Thai stir-fried noodles with shrimp.",
     "price": 11.99,
-    "image": "/src/assets/menu/pad thai.jpg",
+    "image": "/assets/menu/pad-thai.jpg",
     "category": "Meals"
   },
   "m20": {
     "name": "Panko Shrimps",
     "description": "Deep-fried shrimp coated in panko breadcrumbs.",
     "price": 9.99,
-    "image": "/src/assets/menu/panko-shrimps.png",
+    "image": "/assets/menu/panko-shrimps.png",
     "category": "Starters"
   },
   "m21": {
     "name": "Rainbow Roll",
     "description": "Colorful sushi roll with assorted fish and avocado.",
     "price": 14.49,
-    "image": "/src/assets/menu/rainbow roll.jpg",
+    "image": "/assets/menu/rainbow-roll.jpg",
     "category": "Sushi"
   },
   "m22": {
     "name": "Ramen",
     "description": "Classic Japanese noodle soup.",
     "price": 13.99,
-    "image": "/src/assets/menu/ramen.png",
+    "image": "/assets/menu/ramen.png",
     "category": "Meals"
   },
   "m23": {
     "name": "Shrimp Roll",
     "description": "Sushi roll with shrimp and cucumber.",
     "price": 11.49,
-    "image": "/src/assets/menu/shrimp roll.jpg",
+    "image": "/assets/menu/shrimp-roll.jpg",
     "category": "Starters"
   },
   "m24": {
     "name": "Spring Rolls with Edible Flowers",
     "description": "Fresh spring rolls with rice paper and edible flowers.",
     "price": 8.49,
-    "image": "/src/assets/menu/spring-rolls-edible-flowers.jpg",
+    "image": "/assets/menu/spring-rolls-edible-flowers.jpg",
     "category": "Starters"
   },
   "m25": {
     "name": "Strawberry Matcha Boba",
     "description": "Layered matcha and strawberry boba drink.",
     "price": 5.99,
-    "image": "/src/assets/menu/strawberry-matcha-boba.jpg",
+    "image": "/assets/menu/strawberry-matcha-boba.jpg",
     "category": "Drinks"
   },
   "m26": {
     "name": "Classic Salmon California Roll",
     "description": "Sushi roll with salmon and avocado.",
     "price": 12.99,
-    "image": "/src/assets/menu/clasic-salmon-california-sushi.jpg",
+    "image": "/assets/menu/classic-salmon-california-sushi.jpg",
     "category": "Sushi"
   },
   "m27": {
     "name": "Teriyaki Salmon",
     "description": "Grilled salmon with teriyaki sauce.",
     "price": 14.99,
-    "image": "/src/assets/menu/teriyaki  salmon.jpg",
+    "image": "/assets/menu/teriyaki-salmon.jpg",
     "category": "Meals"
   },
   "m28": {
     "name": "Ramen – Today’s Special",
     "description": "Special offer ramen with rich broth.",
     "price": 11.49,
-    "image": "/src/assets/menu/today special offer ramen.gif",
+    "image": "/assets/menu/today-special-offer-ramen.gif",
     "category": "Meals"
   }
 }

@@ -6,7 +6,7 @@ const MealsSummary = () => {
     <>
       <section className={classes.herologo}>
         <Card>
-          <img src="/src/assets/neko-noodles-logo.png" alt="Neko Noodles Logo" />
+          <img src="/assets/neko-noodles-logo.png" alt="Neko Noodles Logo" />
         </Card>
       </section>
       <section className={classes["summary-1"]} id="about">
@@ -31,7 +31,7 @@ const MealsSummary = () => {
             <img
               width="165px"
               height="auto"
-              src="/src/assets/rrramen.jpg"
+              src="/assets/rrramen.jpg"
               alt="ramen bowl"
             />
           </div>
