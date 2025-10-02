@@ -1,0 +1,79 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.header img {
+  height: 3.5rem;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 2px 8px rgba(207, 10, 191, 0.521);
+}
+
+@media (max-width: 467px) {
+  .header img {
+    width: 150px;
+    height: auto;
+  }
+}
+
+@media (max-width: 333px) {
+  .header img {
+    width: 115px;
+    height: auto;
+  }
+}
+
+.main-image {
+  width: 100%;
+  height: 30rem;
+  z-index: 0;
+  overflow: hidden;
+  background-image: url("/src/assets/meals.jpg");
+  background-repeat: repeat;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 1rem;
+}
+
+@media (max-width: 626px) {
+  .header ul {
+    flex-direction: column;
+  }
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffccff;
+}
+
+.header ul li a:active {
+  background-color: #c300ff;
+  color: #ffffff;
+}

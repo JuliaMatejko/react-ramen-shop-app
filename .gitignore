@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Firebase cache and config
+.firebase/
+.firebase-debug.log
+.firebaserc
+
+# Local environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing coverage
+coverage/
+
+# Optional: if using functions (Firebase Cloud Functions)
+functions/node_modules/
+functions/lib/
+functions/.env

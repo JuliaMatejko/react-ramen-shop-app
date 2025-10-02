@@ -1,0 +1,508 @@
+.herologo {
+  text-align: center;
+  margin-top: -23rem;
+  margin-bottom: 3rem;
+}
+
+.herologo div,
+.summary-1 div,
+.summary-2 div,
+.summary-3 div,
+.summary-3 div,
+.summary-4 div,
+.summary-5 div {
+  padding: unset;
+  box-shadow: unset;
+  border-radius: unset;
+  background-color: white;
+}
+
+.herologo div {
+  background-color: #c300ff2d;
+  padding: 1rem;
+}
+
+.herologo div img {
+  border-radius: 12px;
+  border: #e600ff 1px solid;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.466);
+}
+
+@media (max-width: 467px) {
+  .herologo div img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 333px) {
+  .herologo div img {
+    width: 150px;
+    height: auto;
+  }
+}
+
+.summary-1 {
+  display: flex;
+  justify-content: center;
+  background-color: #1b1b1b;
+  background-image: url("/src/assets/noodlebg1c.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0;
+  margin-top: 4rem;
+}
+
+.summary-1 h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  max-width: fit-content;
+}
+
+.summary-1 h3 p {
+  padding: 2rem;
+}
+
+.summary-1 div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(207, 10, 191, 0);
+  max-width: 40rem;
+  align-content: center;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+@media (max-width: 768px) {
+  .summary-1 div {
+    flex-direction: column;
+  }
+}
+
+.summary-1 div div {
+  background-color: #202020;
+  padding: 1rem;
+}
+
+.summary-1 div.b1 {
+  background-color: white;
+  border: #202020 6px double;
+  text-align: center;
+}
+
+.summary-1 div.b1 h3 {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.summary-1 div.b2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.summary-1 div.b2 h3 {
+  font-size: x-large;
+  color: #c503b5;
+  font-family: Verdana, sans-serif;
+  font-weight: 100;
+  text-shadow: #c503b5 1px 1px 2px, #c503b5 0 0 1em, #c503b5 0 0 0.2em;
+  border: #d1af6f 2px solid;
+  padding: 0.5rem;
+  border-radius: 24px;
+  max-height: max-content;
+  text-align: center;
+  box-shadow: 0 0 6px 6px #c9a86a61, inset 0 0 6px 6px #c9a86a61;
+}
+
+.summary-1 div.b3 {
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+.summary-1 div.b3 h3 {
+  font-style: italic;
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.summary-1 div.b4 {
+  padding: unset;
+  background-image: linear-gradient(to bottom, antiquewhite 0%, #fcb69f 100%);
+}
+
+.summary-1 div.b4 img {
+  border: brown 4px dotted;
+}
+
+.summary-1 div.b5 {
+  background-image: linear-gradient(to bottom, #fcb69f 0%, #fc9fdd 100%);
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.summary-1 div.b5 h3 {
+  background-color: #47000081;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 0.4rem;
+  font-weight: bold;
+}
+
+.summary-1 div.b6 {
+  background-image: url("/src/assets/tigerstripes.jpg");
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.summary-1 div.b6 h3 {
+  font-family: "Brush Script MT", cursive;
+  font-weight: 200;
+  font-style: italic;
+  color: #c300ffa9;
+  background-color: #202020;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border-radius: 12px;
+  border: #c300ffa9 1px solid;
+  box-shadow: 0 2px 8px #c300ff;
+}
+
+.summary-1 div.b7 {
+  background-image: url("/src/assets/bg1.jpg");
+  background-size: cover;
+}
+
+.summary-1 div.b7 div.cat-image-box {
+  background-image: url("/src/assets/greek-kitty.jpg");
+  background-size: cover;
+  width: 165px;
+  height: 165px;
+  background-position: center;
+  box-shadow: inset 0 0 6px 4px rgba(0, 0, 0, 0.603),
+    0 0 20px 8px rgba(255, 255, 255, 0.274);
+  border-radius: 50%;
+}
+
+.summary-2,
+.summary-3,
+.summary-4,
+.summary-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1b1b1b;
+  margin: 4rem 0;
+}
+
+.summary-3 {
+  flex-wrap: wrap-reverse;
+}
+
+.summary-2 > div,
+.summary-3 > div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1b1b1b;
+  justify-content: center;
+}
+
+.summary-2 > div > div,
+.summary-3 > div div:last-child {
+  background-color: transparent;
+  max-width: 40rem;
+  max-height: 40rem;
+}
+
+.summary-2 p,
+.summary-3 p {
+  padding: 2rem;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.summary-2 p strong,
+.summary-3 p strong {
+  color: brown;
+}
+
+.summary-2 .sushi-plate,
+.summary-2 .sushi-set,
+.summary-2 .ramen,
+.summary-2 .chicken-ramen {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 335px) {
+  .summary-2 .sushi-plate,
+  .summary-2 .sushi-set,
+  .summary-2 .ramen,
+  .summary-2 .chicken-ramen {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 210px) {
+  .summary-2 .sushi-plate,
+  .summary-2 .sushi-set,
+  .summary-2 .ramen,
+  .summary-2 .chicken-ramen {
+    background-color: #fb00ff;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.summary-2 .sushi-plate {
+  background-image: url("/src/assets/sushi-plate.jpg");
+}
+.summary-2 .sushi-set {
+  background-image: url("/src/assets/sushi-set.jpg");
+}
+.summary-2 .ramen {
+  background-image: url("/src/assets/ramen.png");
+}
+.summary-2 .chicken-ramen {
+  background-image: url("/src/assets/chicken-ramen.jpg");
+}
+
+/* summary-3 */
+.summary-3 .cats-looking-1,
+.summary-3 .cats-sitting,
+.summary-3 .cats-looking-2,
+.summary-3 .cats-eating-2 {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 335px) {
+  .summary-3 div.cats-looking-1,
+  .summary-3 div.cats-sitting,
+  .summary-3 div.cats-looking-2,
+  .summary-3 div.cats-eating-2 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 210px) {
+  .summary-3 div.cats-looking-1,
+  .summary-3 div.cats-sitting,
+  .summary-3 div.cats-looking-2,
+  .summary-3 div.cats-eating-2 {
+    background-color: #fb00ff;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.summary-3 .cats-looking-1 {
+  background-image: url("/src/assets/cats-looking-1.jpg");
+}
+.summary-3 .cats-sitting {
+  background-image: url("/src/assets/cats-sitting.jpg");
+}
+.summary-3 .cats-looking-2 {
+  background-image: url("/src/assets/cats-looking-2.jpg");
+}
+.summary-3 .cats-eating-2 {
+  background-image: url("/src/assets/cats-eating-2.jpg");
+}
+
+.summary-4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  background-color: antiquewhite;
+  background-image: url("/src/assets/bg1.jpg");
+  background-size: 400px;
+}
+
+.summary-4 > div {
+  justify-content: center;
+}
+
+.summary-4 .restaurant-1,
+.summary-4 .cat-sleeping,
+.summary-4 .strawberry-matcha,
+.summary-4 .ramen-bowls {
+  background-size: cover;
+  background-position: center;
+  min-width: 185px;
+  min-height: 300px;
+}
+
+.summary-4 .restaurant-1 {
+  background-image: url("/src/assets/restaurant-1.jpg");
+}
+.summary-4 .cat-sleeping {
+  background-image: url("/src/assets/cat-sleeping.jpg");
+}
+.summary-4 .strawberry-matcha {
+  background-image: url("/src/assets/strawberry-matcha-boba.jpg");
+}
+.summary-4 .ramen-bowls {
+  background-image: url("/src/assets/ramen-bowls.png");
+}
+
+.summary-4 > div {
+  background-color: antiquewhite;
+  border-left: white solid 5px;
+  border-right: white solid 5px;
+}
+
+.summary-4 > div h3 {
+  font-size: x-large;
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.summary-4 > div hr {
+  border: none;
+  height: 10px;
+  background-color: white;
+}
+
+.summary-4 .restaurant-1,
+.summary-4 .cat-sleeping,
+.summary-4 .strawberry-matcha {
+  aspect-ratio: 3 / 4;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin: 1rem;
+  width: 20vi;
+  border: white solid 5px;
+}
+
+.summary-4 .ramen-bowls {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: antiquewhite;
+}
+
+.summary-4 .restaurant-1 span,
+.summary-4 .cat-sleeping span,
+.summary-4 .strawberry-matcha span,
+.summary-4 .ramen-bowls span {
+  color: white;
+  background-color: #47000081;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 0.25rem;
+}
+
+.summary-4 > div:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.summary-5 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.summary-5 .cat-neon {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: #ffffff 2px solid;
+}
+
+@media (max-width: 768px) {
+  .summary-5 .cat-neon {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .summary-5 .cat-neon {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.summary-5 .cat-neon {
+  background-image: url("/src/assets/cat-neon.jpg");
+}
+
+.summary-5 > div {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  font-weight: 00;
+}
+
+.summary-5 > div:nth-child(2) div {
+  max-width: 300px;
+}
+
+.summary-5 > div:nth-child(3) div {
+  flex: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 823px) {
+  .summary-5 {
+    flex-direction: column;
+  }
+
+  .summary-5 > div:nth-child(3) div {
+    width: 100%;
+  }
+}
+
+.summary-5 img {
+  border-radius: 20%;
+  padding: 1rem;
+}
+
+.summary-5 div {
+  background-color: transparent;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6;
+}
+
+.summary-5 > div:nth-child(2) {
+  border-left: #ffe7fd solid 3px;
+  box-shadow: -4px 0 4px -2px #0022ff;
+  background: linear-gradient(to right, #0022ff32, #1b1b1b);
+}
+
+.summary-5 > div:nth-child(3) {
+  border-right: #e7efff solid 3px;
+  box-shadow: 4px 0 4px -2px #c300ff;
+  background: linear-gradient(to left, #c300ff2f, #1b1b1b);
+}

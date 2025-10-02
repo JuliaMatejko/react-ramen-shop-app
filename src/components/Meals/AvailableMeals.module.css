@@ -1,0 +1,184 @@
+.meals {
+  display: flex;
+  justify-content: center;
+  animation: meals-appear 1s ease-out forwards;
+  background-color: rgb(222, 184, 141);
+  padding-top: 1rem;
+}
+
+.meals > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.meals > div > div {
+  min-width: 50vw;
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.MealsLoading {
+  text-align: center;
+  color: white;
+}
+
+.MealsError {
+  text-align: center;
+  color: red;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.tabButton {
+  padding: 0.5rem;
+  background-color: antiquewhite;
+  border: 2px solid antiquewhite;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  color: #8a2b06;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.466);
+  width: 100px;
+  height: 35px;
+  font-family: monospace;
+  font-size: larger;
+}
+
+.tabButton:hover {
+  background-color: #a95f1a;
+  color: white;
+}
+
+@media (max-width: 636px) {
+  .meals div {
+    width: 100%;
+    border-radius: unset;
+  }
+
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 1rem 0 1rem 0;
+  }
+
+  button.tabButton {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: unset;
+  }
+}
+
+.active {
+  background-color: #8a2b06;
+  color: white;
+  border: 2px solid antiquewhite;
+}
+
+.menu-images div {
+  padding: unset;
+  box-shadow: unset;
+  border-radius: unset;
+  background-color: transparent;
+}
+
+.menu-images {
+  background-image: url("/src/assets/bg1.jpg");
+  background-size: 400px;
+  padding: 1rem 0;
+}
+
+.menu-images > div {
+  display: flex;
+  background-color: #faebd7d4;
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  justify-content: center;
+}
+
+.menu-images > div > div {
+  display: flex;
+}
+
+.menu-images > div > div div:nth-child(1) {
+  border-radius: 6px 0 0 6px;
+}
+
+.menu-images > div > div div:nth-child(2) {
+  border-radius: 0 6px 6px 0;
+}
+
+.neko-noodles-icon {
+  background-image: url("/src/assets/neko-noodles-icon.png");
+  width: 100px;
+  height: 100px;
+}
+
+.neko-noodles-logo-text {
+  background-image: url("/src/assets/neko-noodles-logo-text.png");
+  height: 100px;
+  width: 425px;
+}
+
+@media (max-width: 564px) {
+  .neko-noodles-icon {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+  }
+
+  .neko-noodles-logo-text {
+    width: 280px;
+    height: 60px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 365px) {
+  .neko-noodles-icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+
+  .neko-noodles-logo-text {
+    width: 180px;
+    height: 40px;
+    background-size: cover;
+  }
+}
+
+.menu-header > div > h2.header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+}
