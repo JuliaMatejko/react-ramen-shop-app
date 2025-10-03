@@ -148,7 +148,7 @@ const MealsSummary = () => {
               United Kingdom
             </p>
           </div>
-          <img src="/public/assets/neko-noodles-icon.png" alt="Neko Noodles Icon" />
+          <img src="/assets/neko-noodles-icon.png" alt="Neko Noodles Icon" />
         </Card>
       </section>
     </>
