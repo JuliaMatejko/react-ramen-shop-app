@@ -54,7 +54,7 @@ firebase deploy
 
 ### 📂 Folder Structure
 
-<img width="400" alt="folder" src="https://github.com/user-attachments/assets/a676a860-5558-4bb1-98bc-56e3aa9aceb6" />
+<img width="400" alt="folder" src="https://github.com/user-attachments/assets/7392b022-6028-4876-b7ba-22873c21d711" />
 
 ---
 
@@ -62,11 +62,8 @@ firebase deploy
 
 Desktop
 ---
-<img alt="desktop" src="https://github.com/user-attachments/assets/255f0dca-91dd-4852-b2db-de5666c0556c" />
+<img alt="desktop" src="https://github.com/user-attachments/assets/3c5a1c89-f100-4193-a43b-d2e3d41bcadf" />
 
 Mobile
 ---
-<img alt="mobile" src="https://github.com/user-attachments/assets/4d3103b2-d2b3-45b9-82f2-2eb98e930059" />
-
----
-
+<img alt="mobile" src="https://github.com/user-attachments/assets/0a8424b8-b5f4-4aa9-aa01-0142d1ee266a" />
